@@ -1,0 +1,83 @@
+body {
+    background-color: #100b0e;
+    color: #d5dee7;
+    font-family: Geneva, sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: min-content;
+}
+form {
+margin: auto;
+width: max-content;
+}
+form * {
+    background: #100b0e;
+    color: #d5dee7;
+    border: #f1b329 solid 1px;
+    border-radius: 5px;
+}
+
+content {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+.img{
+    width: auto;
+    height: 200px;
+    border: 2px #f1b329 solid;
+}
+#left, #right {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+#compare{
+    margin: 23px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    flex-grow:1 ;
+}
+.hide{
+    visibility: hidden;
+}
+.row{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+p{
+    display: inline;
+    width: 90px;
+    margin: unset;
+}
+.p_middle {
+    margin-inline: auto;
+    text-align: center;
+    color: #d5dee7;
+}
+.row p:nth-of-type(3) {
+   text-align: right;
+}
+.winner{
+    color: #3d74ad;
+}
+.loser{
+    color: #9ba0a9;
+}
